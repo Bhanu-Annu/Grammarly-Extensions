@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-13T14:36:00 AST" name="Suite" finished-at="2023-01-13T14:39:15 AST" duration-ms="195465">
+    <groups>
+    </groups>
+    <test started-at="2023-01-13T14:36:00 AST" name="Test_All" finished-at="2023-01-13T14:39:15 AST" duration-ms="195465">
+      <class name="com.webapptestproject.testcases.PositiveTestCase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@2dc54ad4]" started-at="2023-01-13T14:36:56 AST" name="setup" finished-at="2023-01-13T14:37:01 AST" duration-ms="4840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkForErrorReplacement(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@2dc54ad4]" started-at="2023-01-13T14:37:01 AST" name="checkForErrorReplacement" finished-at="2023-01-13T14:38:15 AST" duration-ms="74373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grammarly: Grammar Checker and Writing App]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForErrorReplacement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@2dc54ad4]" started-at="2023-01-13T14:38:15 AST" name="tearDown" finished-at="2023-01-13T14:38:16 AST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webapptestproject.testcases.PositiveTestCase -->
+      <class name="com.webapptestproject.testcases.ExtensionPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@61001b64]" started-at="2023-01-13T14:35:59 AST" name="loadConfig" finished-at="2023-01-13T14:36:00 AST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@61001b64]" started-at="2023-01-13T14:36:00 AST" name="setup" finished-at="2023-01-13T14:36:05 AST" duration-ms="5291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateIfExtensionInstalled(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@61001b64]" started-at="2023-01-13T14:36:05 AST" name="validateIfExtensionInstalled" finished-at="2023-01-13T14:36:55 AST" duration-ms="50256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grammarly: Grammar Checker and Writing App]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfExtensionInstalled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@61001b64]" started-at="2023-01-13T14:36:55 AST" name="tearDown" finished-at="2023-01-13T14:36:56 AST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@61001b64]" started-at="2023-01-13T14:39:15 AST" name="afterSuite" finished-at="2023-01-13T14:39:16 AST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.webapptestproject.testcases.ExtensionPageTest -->
+      <class name="com.webapptestproject.testcases.NegativeTestCase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@4659191b]" started-at="2023-01-13T14:38:16 AST" name="setup" finished-at="2023-01-13T14:38:20 AST" duration-ms="4113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLanguageErrorsAreNotDetected(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@4659191b]" started-at="2023-01-13T14:38:20 AST" name="validateLanguageErrorsAreNotDetected" finished-at="2023-01-13T14:39:14 AST" duration-ms="54589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grammarly: Grammar Checker and Writing App]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLanguageErrorsAreNotDetected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@4659191b]" started-at="2023-01-13T14:39:14 AST" name="tearDown" finished-at="2023-01-13T14:39:15 AST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webapptestproject.testcases.NegativeTestCase -->
+    </test> <!-- Test_All -->
+  </suite> <!-- Suite -->
+</testng-results>
